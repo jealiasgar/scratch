@@ -1,0 +1,33 @@
+body {
+  padding: 20px 0;
+  font-family: "Roboto";
+}
+
+.container {
+  border: 3px solid #777;
+  background-color: #dec9c5;
+  border-radius: 5px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+}
+
+.form {
+  padding: 20px;
+  text-align: center;
+}
+
+.form h3 {
+  font-weight: 300;
+}
